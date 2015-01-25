@@ -38,7 +38,7 @@ cacheSolve <- function(x, ...) {
 
 # Example usage:
   # Create a matrix x
-  x <- matrix(c(1,0,5,2,1,6,3,4,0), nrow = 3, ncol=3)
+  x <- matrix(rnorm(1:9), nrow = 3, ncol=3)
   # Create the special matrix
   cx <- makeCacheMatrix(x)
   # Return the matrix
